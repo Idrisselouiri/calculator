@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input id="input-screen" type="text" placeholder="0"><br>
+            <button class="btn" onclick="showValue(1)">1</button>
+            <button class="btn" onclick="showValue(2)">2</button>
+            <button class="btn" onclick="showValue(3)">3</button>
+            <button class="btn" onclick="showValue('+')" style="background-color: #ffb84d;">+</button>
+            <br>
+            <button class="btn" onclick="showValue(4)">4</button>
+            <button class="btn" onclick="showValue(5)">5</button>
+            <button class="btn" onclick="showValue(6)">6</button>
+            <button class="btn" onclick="showValue('-')"  style="background-color: #ffb84d;">-</button>
+            <br>
+            <button class="btn" onclick="showValue(7)">7</button>
+            <button class="btn" onclick="showValue(8)">8</button>
+            <button class="btn" onclick="showValue(9)">9</button>
+            <button class="btn" onclick="showValue('*')"  style="background-color: #ffb84d;">*</button>
+            <br>
+            <button class="btn" onclick="showValue('.')">.</button>
+            <button class="btn" onclick="showValue(0)">0</button>
+            <button class="btn" onclick="deleteData()">c</button>
+            <button class="btn" onclick="showValue('/')"  style="background-color: #ffb84d;">/</button>
+            <br>
+            <button class="equal" onclick="equal()">=</button>
+        </div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
